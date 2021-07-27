@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-color: #f5f6fa;
+}
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  * {
+    font-size: 10px;
+  }
+}
+.app__left {
+  flex: 0.9;
+}
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.app__states {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,22 @@
+.table {
+  overflow: scroll;
+  height: 400px;
+  margin-top: 20px;
+}
+.table tr :nth-child(even) {
+  color: red;
+}
+.table tr {
+  display: flex;
+  justify-content: space-between;
+}
+.table td {
+  padding: 0.5rem;
+}
+.table__country {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.table tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
